@@ -3,7 +3,7 @@ import { searchUtility } from "./handlers/searchUtility";
 
 function App() {
   let query = "is your problems";
-  let results = 10;
+  let results = 5;
   console.log(searchUtility(query, results));
   return <div>Please open your console window</div>;
 }

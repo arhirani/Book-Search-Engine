@@ -79,4 +79,9 @@ let getSummaryList = (sortedCombination, matchedCombination, k) => {
 
 //searchUtility("is your problems", 10);
 
-export { searchUtility };
+export {
+  searchUtility,
+  getRelevantCombinations,
+  getProbability,
+  getSummaryList,
+};
