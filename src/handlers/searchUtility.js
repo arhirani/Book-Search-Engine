@@ -1,6 +1,14 @@
 import data from "../json/data";
 import { wordCombination } from "./wordCombination";
 
+let getTitles = (query, k) => {
+  let results = searchUtility(query, k);
+  for (let i = 0; i < results.length; i++) {
+    results[i].title = data.titles[results[i].id];
+    results[i].author = data.authors[results[i].id].author;
+  }
+  return results;
+};
 /**
  * Main function - Creates word combinations and finds top k summaries that match with the given query
  * @param {String} query
@@ -84,4 +92,5 @@ export {
   getRelevantCombinations,
   getProbability,
   getSummaryList,
+  getTitles,
 };

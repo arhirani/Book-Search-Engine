@@ -1,11 +1,13 @@
 import React from "react";
-import { searchUtility } from "./handlers/searchUtility";
+import SearchBooks from "./components/SearchBooks";
+import "./styles.css";
 
 function App() {
-  let query = "is your problems";
-  let results = 5;
-  console.log(searchUtility(query, results));
-  return <div>Please open your console window</div>;
+  return (
+    <div>
+      <SearchBooks />
+    </div>
+  );
 }
 
 export default App;
