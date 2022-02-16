@@ -1,7 +1,7 @@
 # Problem Statement
 Build a Search Engine for books which will return the relevant results based on the summaries of the books in the database.
 
-# Search-Engine-Utility
+# Book-Search-Engine-Utility
 Search Engine that matches the given query in the database and returns relevant results.
 
 #Task1: Search Utility
@@ -13,3 +13,8 @@ ChallengeFaced: To bring down the search complexity to O(N) by creating a look u
 
 #Task2: Front End Design
 Front End Design for Task 1 where the suggestions will be fetched based on the query given. It uses debouncing technique to limit the function calls. 
+
+# Features
+* A user can search the summaries in the input box and the relevant results will get displayed.
+* The user can adjust the list of suggestions.
+* The books selected by the user will be displayed as cards along with its summaries.
