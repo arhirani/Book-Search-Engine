@@ -1,6 +1,8 @@
 # Problem Statement
 Build a Search Engine for books which will return the relevant results based on the summaries of the books in the database.
 
+Eg. If I search for the term "meditation and mindfullness", the books dropdown should have this term in their summary sorted by relevancy.
+
 Write test cases for each component.
 
 # Book-Search-Engine-Utility
