@@ -60,7 +60,7 @@ function SearchBooks() {
 
   return (
     <div className="SearchEngine">
-      <h1 className="pageTitle">Unibuddy Books</h1>
+      <h1 className="pageTitle">Search Books</h1>
       <div className="pageBody">
         <DisplayTitles
           {...{ inputQuery, query, onQueryChange, results, setTitle, display }}
